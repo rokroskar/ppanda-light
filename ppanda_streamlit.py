@@ -32,7 +32,7 @@ else:
             #st.text(' '.join(project_dict.keys()))
             project_name = project_dict['name']
     else:
-        dirs = glob(os.environ['HOME']+'/work/pp*')
+        dirs = glob(os.environ['HOME']+'/pp*')
         if len(dirs) == 0:
             project_name=os.getcwd().split('/')[-1]
         else:
@@ -208,12 +208,12 @@ def get_spectra_information(fname):
 # Starts app
 
 
-if os.path.isdir('/home/jovyan/work/%s' % project_name):
-    base_dir = '/home/jovyan/work/%s/' % project_name
+if os.path.isdir('/home/jovyan/%s' % project_name):
+    base_dir = '/home/jovyan/%s/' % project_name
 else:
     base_dir = ''
 
-result_files = glob(base_dir+'*/*/*_output_results.json')
+result_files = glob(base_dir+'../sources/*/*/*_output_results.json')
 
 # st.warning(' '.join(result_files))
 

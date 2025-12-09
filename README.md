@@ -8,8 +8,9 @@ _C. Ferrigno, E. Ambrosi, A. D'A&igrave;, D. K. Maniadakis_
 Papers:
 - [Ferrigno et al. 2023](https://doi.org/10.1051/0004-6361/202347062)
 - [D'A&igrave; et al. 2025](https://doi.org/10.1051/0004-6361/202451469)
+- [Maniadakis et al. 2025](https://doi.org/10.1051/0004-6361/202555112)
 
-[![launch - renku](https://renkulab.io/renku-badge.svg)](https://renkulab.io/p/carlo.ferrigno/ppanda-light/sessions/01JS4MC44NM7AGSD9P2S7RV6N5/start)
+[![launch - renku](https://renkulab.io/renku-badge.svg)](https://renkulab.io/p/carlo.ferrigno/ppanda-light-extern/sessions/01KC1VP6N2DF51PC1HZCR1ZF7T/start)
 
 This will launch the session in renkulab 2.0
 
